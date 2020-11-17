@@ -1,7 +1,12 @@
-import Head from 'next/head';
+import {Container} from './styles';
+import Menu from '../components/Menu'
+
 
 export default function Home() {
   return (
-    <h1>Hello word</h1>
+    <Container>
+     <Menu/>
+     {/* <Main/> */}
+    </Container>
   )
 }
